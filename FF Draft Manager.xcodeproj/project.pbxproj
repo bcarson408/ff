@@ -13,6 +13,7 @@
 		B7EF64581AE6210900FF26C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7EF64571AE6210900FF26C9 /* Images.xcassets */; };
 		B7EF645B1AE6210900FF26C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EF64591AE6210900FF26C9 /* LaunchScreen.xib */; };
 		B7EF64671AE6210900FF26C9 /* FF_Draft_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF64661AE6210900FF26C9 /* FF_Draft_ManagerTests.swift */; };
+		B7EF64711AE6235400FF26C9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF64701AE6235400FF26C9 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B7EF64601AE6210900FF26C9 /* FF Draft ManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FF Draft ManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF64651AE6210900FF26C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7EF64661AE6210900FF26C9 /* FF_Draft_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FF_Draft_ManagerTests.swift; sourceTree = "<group>"; };
+		B7EF64701AE6235400FF26C9 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B7EF64571AE6210900FF26C9 /* Images.xcassets */,
 				B7EF64591AE6210900FF26C9 /* LaunchScreen.xib */,
 				B7EF644E1AE6210900FF26C9 /* Supporting Files */,
+				B7EF64701AE6235400FF26C9 /* Player.swift */,
 			);
 			path = "FF Draft Manager";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7EF64531AE6210900FF26C9 /* ViewController.swift in Sources */,
+				B7EF64711AE6235400FF26C9 /* Player.swift in Sources */,
 				B7EF64511AE6210900FF26C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
