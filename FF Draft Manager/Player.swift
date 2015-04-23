@@ -6,13 +6,12 @@
 //  Copyright (c) 2015 J. Brant Carson. All rights reserved.
 //
 
-import Foundation
+import Foundation;
 
 
 Class Player {
-    var first_name:String?;
-    var last_name:string?;
-    var team:String?;
-    var position:string?;
-    
+    let first_name:String;
+    let last_name:String;
+    var team:[String?];
+    var position:String;
 }

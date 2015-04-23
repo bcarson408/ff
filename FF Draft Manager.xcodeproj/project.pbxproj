@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B77750F11AE758A7001FA7A7 /* QuaterbackStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77750F01AE758A7001FA7A7 /* QuaterbackStats.swift */; };
 		B7EF64511AE6210900FF26C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF64501AE6210900FF26C9 /* AppDelegate.swift */; };
 		B7EF64531AE6210900FF26C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF64521AE6210900FF26C9 /* ViewController.swift */; };
 		B7EF64561AE6210900FF26C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EF64541AE6210900FF26C9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B77750F01AE758A7001FA7A7 /* QuaterbackStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuaterbackStats.swift; sourceTree = "<group>"; };
 		B7EF644B1AE6210900FF26C9 /* FF Draft Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FF Draft Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EF644F1AE6210900FF26C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7EF64501AE6210900FF26C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				B7EF64591AE6210900FF26C9 /* LaunchScreen.xib */,
 				B7EF644E1AE6210900FF26C9 /* Supporting Files */,
 				B7EF64701AE6235400FF26C9 /* Player.swift */,
+				B77750F01AE758A7001FA7A7 /* QuaterbackStats.swift */,
 			);
 			path = "FF Draft Manager";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				B7EF64531AE6210900FF26C9 /* ViewController.swift in Sources */,
 				B7EF64711AE6235400FF26C9 /* Player.swift in Sources */,
+				B77750F11AE758A7001FA7A7 /* QuaterbackStats.swift in Sources */,
 				B7EF64511AE6210900FF26C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				B7EF646C1AE6210900FF26C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7EF646D1AE6210900FF26C9 /* Build configuration list for PBXNativeTarget "FF Draft ManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				B7EF646F1AE6210900FF26C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
