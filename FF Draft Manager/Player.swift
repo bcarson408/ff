@@ -8,10 +8,23 @@
 
 import Foundation;
 
+struct Stats {
+    let statYear:Int;
+    let gamesPlayed:Int;
+    let gamesStarted:Int;
+//    let comp:Int;
+//    let attempts:Int;
+//    let yards:Int;
+//    let td:Int;
+}
 
-Class Player {
+class Player {
     let first_name:String;
     let last_name:String;
     var team:[String?];
     var position:String;
+    var carearStats:[Stats];
+    init(){
+        ;
+    }
 }
