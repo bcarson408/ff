@@ -18,7 +18,7 @@ struct stats {
         let td:Int;
         let sacs:Int;
         let rushingAtts:Int;
-        let rushingYards:Int;
+    let rushingYards:Int;
         let rushingAvg:Int;
         let rushingTDs:Int;
         let fumbles:Int;
@@ -27,8 +27,8 @@ struct stats {
 
 
 class QuarterbackStats {
-    let season:String;
-    var team:String;
     
+ 
+    ;
     
 }
